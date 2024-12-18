@@ -154,6 +154,7 @@ print "<br>Client's age is $age.";
 ---
 
 ## 🖼️ Скриншоты и примеры
+<img width="1792" alt="Screenshot 2024-12-19 at 00 21 45" src="https://github.com/user-attachments/assets/d73a4155-06b1-46b1-a3ae-f77c894f3fc5" />
 
 ---
 
