@@ -143,7 +143,7 @@
 ---
 
 ## 🖼️ Скриншоты и примеры
-<img width="1792" alt="Screenshot 2024-12-18 at 23 13 50" src="https://github.com/user-attachments/assets/a21f88e0-86ae-43f1-a8f3-6711191b5387" />
+<img width="1792" alt="Screenshot 2024-12-18 at 23 24 11" src="https://github.com/user-attachments/assets/7aaa01be-6d5b-4aff-8074-738eb990b74c" />
 
 ---
 
