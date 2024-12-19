@@ -34,6 +34,8 @@ Transfer-Encoding: chunked
 Connection: keep-alive
 ```
 
+![Screenshot 2024-12-19 at 18 54 27](https://github.com/user-attachments/assets/7fc5ad68-c76c-49db-9a2d-fa8f1359f83a)
+
 #### Вопросы и ответы:
 - **Какой метод HTTP был использован для отправки запроса?**
   Метод: `POST`.
@@ -53,6 +55,8 @@ Connection: keep-alive
 
 - **Какие параметры были отправлены в запросе?**
   Параметры: `username=student&password=studentpass`
+
+![Screenshot 2024-12-19 at 18 54 42](https://github.com/user-attachments/assets/08846e42-de9d-4fed-993e-854a64522975)
 
 - **Какой код состояния был возвращен сервером?**
   Код состояния: `401 Unauthorized`.
@@ -91,6 +95,8 @@ Transfer-Encoding: chunked
 Connection: keep-alive
 ```
 
+![Screenshot 2024-12-19 at 18 58 47](https://github.com/user-attachments/assets/ee6fe693-b50e-4db9-b679-97d5717dcbd6)
+
 #### Вопросы и ответы:
 - **Какой метод HTTP был использован для отправки запроса?**
   Метод: `POST`.
@@ -110,6 +116,8 @@ Connection: keep-alive
 
 - **Какие параметры были отправлены в запросе?**
   Параметры: `username=admin&password=password`
+
+![Screenshot 2024-12-19 at 18 59 01](https://github.com/user-attachments/assets/0a4ea232-b485-4ee5-a6db-366b905004ab)
 
 - **Какой код состояния был возвращен сервером?**
   Код состояния: `200 OK`.
@@ -179,37 +187,6 @@ Location: /cars/123
 
 ## ✏️ Задание №3: HTTP_Quest
 
-### Шаг 1: Отправьте POST-запрос
-```
-POST /quest HTTP/1.1
-Host: sandbox.usm.md
-User-Agent: Artiom Startev
-```
-
-**curl:**
-```bash
-curl -X POST http://sandbox.usm.md/quest -H "User-Agent: Artiom Startev"
-```
-
-### Шаг 2: Следуйте инструкциям сервера
-Сервер будет предоставлять дальнейшие шаги, которые необходимо выполнить для завершения квеста. Финальный шаг предоставит секретное слово.
-
-**Пример ответа:**
-```
-/home/devrdn/www/quest/progress/
-```
-
----
-
-## 📚 Использованные источники
-
-- [HTTP Documentation](https://developer.mozilla.org/en-US/docs/Web/HTTP)
-- [curl Documentation](https://curl.se/docs/)
-- Инструменты разработчика браузера.
-
----
-## ✏️ Задание №3: HTTP_Quest
-
 ### Шаг 1: Отправьте POST-запрос для создания агента
 
 ```
@@ -231,6 +208,8 @@ curl -X POST http://sandbox.usm.md/quest -H "User-Agent: Artiom Startev"
 4. instruction: Send a POST request to http://sandbox.usm.md/quest/login with Authorization: Bearer CBMZPQcIYjYHFTsVCCI=
 ```
 
+<img width="1509" alt="Screenshot 2024-12-19 at 23 58 55" src="https://github.com/user-attachments/assets/16755ee3-4265-48d9-9b0e-099ddce3b08b" />
+
 ### Шаг 2: Отправьте POST-запрос для проверки авторизации
 
 ```
@@ -249,6 +228,8 @@ curl -X POST http://sandbox.usm.md/quest/login -H "Authorization: Bearer CBMZPQc
 1. Step 2 completed! Now, send a PUT request to http://sandbox.usm.md/quest/age with the request body age=<your age> and with the Authorization header with the token you received in the previous step.
 2. next_step: Send a PUT request to http://sandbox.usm.md/quest/age with age=<your age> in the request body
 ```
+
+<img width="1511" alt="Screenshot 2024-12-20 at 00 01 52" src="https://github.com/user-attachments/assets/752d3288-d6f9-4e6f-9bf7-5b03157bd0a3" />
 
 ### Шаг 3: Отправьте PUT-запрос для обновления возраста
 
@@ -273,6 +254,8 @@ curl -X PUT http://sandbox.usm.md/quest/age -H "Authorization: Bearer KhQfOEddbF
 3. instruction: Send a GET request to http://sandbox.usm.md/quest/secret?token=KhQfOEddbFJdRR9CU1VQRVJRSlZx
 ```
 
+<img width="1512" alt="Screenshot 2024-12-20 at 00 05 52" src="https://github.com/user-attachments/assets/e06e2e9a-35be-4eb1-8a63-ac68301756b2" />
+
 ### Шаг 4: Отправьте GET-запрос для получения секрета
 
 ```
@@ -290,6 +273,8 @@ curl -X GET "http://sandbox.usm.md/quest/secret?token=KhQfOEddbFJdRR9CU1VQRVJRSl
 1. Congratulations, curl/8.7.1! You have successfully completed the quest! Here is your secret: CjkdGkpxTVJiUFlGVA==
 2. secret: CjkdGkpxTVJiUFlGVA==
 ```
+
+<img width="1511" alt="Screenshot 2024-12-20 at 00 26 15" src="https://github.com/user-attachments/assets/d7365645-3dd4-4e7d-ba70-2044186e560c" />
 
 ---
 
