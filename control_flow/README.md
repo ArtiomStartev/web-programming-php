@@ -45,6 +45,8 @@ for ($i = 0; $i <= 5; $i++) {
 echo "\nEnd of the loop: a = $a, b = $b";
 ```
 
+![image](https://github.com/user-attachments/assets/85cdfd64-e624-4e13-833a-d11685838c9a)
+
 ### 2️⃣ Задание 2: Цикл `while`
 
 #### Аналогичный подсчёт, но с использованием `while`.
@@ -62,6 +64,8 @@ while ($i <= 5) {
 echo "\nEnd of the loop: a = $a, b = $b";
 ```
 
+<img width="1786" alt="Screenshot 2025-05-12 at 14 38 15" src="https://github.com/user-attachments/assets/dd4c0d13-dc16-46a0-ae6a-ab141871894f" />
+
 ### 3️⃣ Задание 3: Работа с массивами
 
 #### Генерируем массив из 10 случайных чисел от 1 до 100 и выводим его.
@@ -74,6 +78,8 @@ for ($i = 0; $i < 10; $i++) {
 echo "Сгенерирован массив:\n";
 print_r($numbers);
 ```
+
+<img width="1785" alt="Screenshot 2025-05-12 at 14 38 59" src="https://github.com/user-attachments/assets/93c71290-2581-41ae-943a-eeb3b81649c8" />
 
 ### 4️⃣ Задание 4: Ассоциативные массивы и функции
 
@@ -128,6 +134,8 @@ class Transaction {
 }
 ```
 
+<img width="1787" alt="Screenshot 2025-05-12 at 14 39 54" src="https://github.com/user-attachments/assets/f96d0bca-80be-44b0-a27b-f32132e6f5f9" />
+
 ### 5️⃣ Задание 5: Работа с файловой системой (галерея)
 
 #### Сканируем папку image/ и выводим все картинки в сетке 4×N.
@@ -148,9 +156,14 @@ if ($files === false) {
 }
 ```
 
+<img width="1784" alt="Screenshot 2025-05-12 at 14 40 32" src="https://github.com/user-attachments/assets/233cb471-ddd3-46e8-82ba-15942ede13c4" />
+
 ---
 
 ## 🖼️ Скриншоты и примеры
+<img width="1785" alt="Screenshot 2025-05-12 at 14 41 15" src="https://github.com/user-attachments/assets/27535a15-b8dd-435c-aa59-23139431530d" />
+<img width="1786" alt="Screenshot 2025-05-12 at 14 41 29" src="https://github.com/user-attachments/assets/3b946bde-6cdf-4413-af21-ae5acb7366c0" />
+<img width="1790" alt="Screenshot 2025-05-12 at 14 41 38" src="https://github.com/user-attachments/assets/8584d5f6-83c8-498e-87df-9564875495d7" />
 
 ---
 
