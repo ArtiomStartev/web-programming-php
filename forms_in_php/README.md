@@ -46,6 +46,8 @@ if ($_SERVER['REQUEST_METHOD']==='POST' && $task==='1') {
 }
 ```
 
+<img width="1782" alt="Screenshot 2025-05-14 at 09 30 39" src="https://github.com/user-attachments/assets/9ec79068-8cf5-47fd-83a6-06ca1dc91f6e" />
+
 ### 2️⃣ Задание 2: Данные с различных контроллеров
 
 1. Создайте форму «Регистрация на мероприятие» с:
@@ -62,6 +64,8 @@ if ($_SERVER['REQUEST_METHOD']==='POST' && $task==='1') {
 
 3. Выводим результаты в виде списка из `$messages['success2']`.
 
+<img width="1783" alt="Screenshot 2025-05-14 at 09 32 06" src="https://github.com/user-attachments/assets/0ccf462e-a882-42c7-af9b-a6da66ac0302" />
+
 ### 3️⃣ Задание 3: Форма «#write‑comment» с расширенной валидацией
 
 <i>По макету (#write-comment) с полем Name, Mail, Comment и чекбоксом согласия.</i>
@@ -76,6 +80,10 @@ if ($_SERVER['REQUEST_METHOD']==='POST' && $task==='1') {
      - Обязательно к заполнению. 
    - Чекбокс согласия:
      - Должен быть отмечен.
+
+<img width="1791" alt="Screenshot 2025-05-14 at 09 35 43" src="https://github.com/user-attachments/assets/684bc6ed-f7b4-4bd4-9992-2b403964321d" />
+
+<img width="1780" alt="Screenshot 2025-05-14 at 09 34 24" src="https://github.com/user-attachments/assets/46d145a7-9faf-438d-850f-480242cc58e0" />
 
 ### 4️⃣ Задание 4: Создание теста
 
@@ -130,6 +138,7 @@ if ($_SERVER['REQUEST_METHOD']==='POST' && $task==='1') {
     }
 ```
 
+<img width="1790" alt="Screenshot 2025-05-14 at 09 39 59" src="https://github.com/user-attachments/assets/a7e64bd7-cc8e-4c64-b86d-bada95c4b02a" />
 
 ### 🔄 Отличие $_POST и $_REQUEST
    - `$_POST` — содержит только данные из тела HTTP-запроса при методе `POST`.
